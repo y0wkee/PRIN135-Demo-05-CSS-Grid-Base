@@ -34,7 +34,7 @@
 }
 
 .grid-gap {
-    gap: 20px 10px;
+    gap: 20px;
 }
 
 /* grid-template-area */
@@ -46,10 +46,11 @@
         "footer footer footer";
     grid-template-columns: 180px 1fr 140px;
     grid-template-rows: auto 1fr auto;
-    gap: 10px
+    gap: 10px;
     min-height: 400px;
 
     .item {
+
     }
 
     .header {
